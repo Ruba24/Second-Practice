@@ -3,10 +3,26 @@
     border-radius: 14px;
     margin-bottom: 15px;
     padding: 0 10px 0 10px;
+    width: 300px;
+    text-align: center;
 }
 .Product:hover{
     box-shadow: 0 8px 12px 0 rgba(0,0,0,0.5);
 }
 h1{
+    text-align: center;
+}
+/* body{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+} */
+#price{
+    background-color: yellow;
+    color: black;
+}
+#container{
+    display: flex;
+    flex-direction: row;
     text-align: center;
 }
